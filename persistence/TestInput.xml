@@ -1,0 +1,71 @@
+<java> 
+  <object class="javax.swing.JFrame">
+    <void property="contentPane"> 
+      <void property="layout">
+        <null/>
+      </void>
+      <void method="add">
+        <object class="javax.swing.JScrollPane">
+          <object id="JEditorPane0" class="javax.swing.JEditorPane"/>
+          <void property="bounds">
+            <object class="java.awt.Rectangle">
+              <int>10</int>
+              <int>40</int>
+              <int>572</int>
+              <int>524</int>
+            </object>
+          </void>
+        </object>
+      </void>
+      <void method="add">
+        <object class="javax.swing.JLabel"> 
+          <void property="bounds">
+            <object class="java.awt.Rectangle">
+              <int>10</int>
+              <int>10</int>
+              <int>40</int>
+              <int>20</int>
+            </object>
+          </void>
+          <void property="text">
+            <string>URL:</string>
+          </void>
+        </object>
+      </void>
+      <void method="add">
+        <object class="javax.swing.JTextField"> 
+          <void property="bounds">
+            <object class="java.awt.Rectangle">
+              <int>50</int>
+              <int>10</int>
+              <int>300</int>
+              <int>20</int>
+            </object>
+          </void>
+          <void property="text">
+            <string>file:\\\C:\temp\persistence\javadoc\</string>
+          </void>
+          <void method="addActionListener">
+            <object class="java.beans.EventHandler" method="create">
+              <class>java.awt.event.ActionListener</class>
+              <object idref="JEditorPane0"/>
+              <string>setPage</string>
+              <string>source.text</string>
+            </object>
+          </void>
+        </object>
+      </void>
+    </void> 
+    <void property="bounds">
+      <object class="java.awt.Rectangle">
+        <int>100</int>
+        <int>100</int>
+        <int>600</int>
+        <int>600</int>
+      </object>
+    </void>
+    <void property="visible">
+      <boolean>true</boolean>
+    </void>
+  </object>
+</java> 

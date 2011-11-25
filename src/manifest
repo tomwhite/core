@@ -1,0 +1,27 @@
+Manifest-version: 1.0
+Main-Class: org.tiling.util.Version 
+
+Name: org/tiling/
+Specification-Title: "Core Tiling API" 
+Specification-Version: "1.0" 
+Specification-Vendor: "The Tiling Organisation" 
+Implementation-Title: "org.tiling"
+Implementation-Version: "0.001" 
+Implementation-Vendor: "The Tiling Organisation"
+
+Name: org/tiling/gui/
+Specification-Title: "Core Tiling GUI API" 
+Specification-Version: "1.0" 
+Specification-Vendor: "The Tiling Organisation" 
+Implementation-Title: "org.tiling.gui"
+Implementation-Version: "0.002" 
+Implementation-Vendor: "The Tiling Organisation"
+
+Name: org/tiling/util/
+Specification-Title: "Core Tiling Util API" 
+Specification-Version: "1.0" 
+Specification-Vendor: "The Tiling Organisation" 
+Implementation-Title: "org.tiling.util"
+Implementation-Version: "0.003" 
+Implementation-Vendor: "The Tiling Organisation"
+
